@@ -4,6 +4,13 @@
 __all__ = []
 
 # %% ..\01_dataset.ipynb 2
+from pathlib import Path
+import geopandas as gpd
+import sqlite3
+import datetime
+import numpy as np
+import gc
+
 import exp4
 from .core import *
 #from exp4.core import load_relato

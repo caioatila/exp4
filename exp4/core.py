@@ -6,7 +6,7 @@ __all__ = ['geo2buffer', 'load_relato', 'replace_val', 'get_date']
 # %% ..\00_core.ipynb 4
 from pathlib import Path
 import pandas as pd
-import geopandas as gdp
+import geopandas as gpd
 import sqlite3
 import datetime
 import numpy as np
