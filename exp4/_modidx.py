@@ -12,7 +12,6 @@ d = { 'settings': { 'branch': 'master',
                             'exp4\\core.load_relato': ('core.html#load_relato', 'exp4\\core.py'),
                             'exp4\\core.query2gdf': ('core.html#query2gdf', 'exp4\\core.py'),
                             'exp4\\core.replace_val': ('core.html#replace_val', 'exp4\\core.py')},
-            'exp4\\dataset': { 'exp4\\dataset.HailReport': ('dataset.html#hailreport', 'exp4\\dataset.py'),
-                               'exp4\\dataset.Intersection': ('dataset.html#intersection', 'exp4\\dataset.py'),
+            'exp4\\dataset': { 'exp4\\dataset.Intersection': ('dataset.html#intersection', 'exp4\\dataset.py'),
                                'exp4\\dataset.Storm': ('dataset.html#storm', 'exp4\\dataset.py'),
                                'exp4\\dataset.StormEvent': ('dataset.html#stormevent', 'exp4\\dataset.py')}}}

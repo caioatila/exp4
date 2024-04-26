@@ -17,7 +17,7 @@ from tathu.io import spatialite
 from tathu.constants import KM_PER_DEGREE
 
 # %% ..\00_core.ipynb 6
-def geo2buffer(row, buffer=20):
+def geo2buffer(row, buffer=10):
         
     """
     Adds an approximate buffer of inclusion around the point geometry of a GeoDataFrame row.
